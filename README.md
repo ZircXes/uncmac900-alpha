@@ -18,3 +18,11 @@ Text
 
 ### Course Project Pool
 Text
+
+
+### Collaboration Team
+* Daniel Stahl
+* Aaron Bridgers
+* Thomas Nguyen
+* Eric Wilbrandt
+* Chris Kennedy
