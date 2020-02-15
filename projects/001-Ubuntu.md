@@ -23,3 +23,7 @@ Open a terminal and type `sudo apt-get install build-essential gcc make perl dkm
 
 #### Check if Python 3 is installed.
 Open a terminal and type `python3 --version`
+
+#### Check if pip is installed.
+In a terminal, type `pip --version` or `pip3 --version`
+If not installed, type `sudo apt install python3-pip`
