@@ -1,16 +1,11 @@
-Colons can be used to align columns.
+# Quick Cheat Sheet for Machine Learning
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+## Regression Type Techniques
+Technique | Regularization | Kernels Hyperparameters | Other Names
+--- | --- | --- | ---
+Linear Regression | No | No | Multiple Regression
+Ridge Regression | Yes | No | L2 Regularization, Tikhonov Regularization
+Kernel Ridge Regression | Yes | Yes | Supper Vector Regression (SVR)
+Support Vector Regression | Yes | Yes | Kernel Ridge Regression
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Suppor Vector Regression (SVR) is part of the family of Support Vector Machines (SVM)
