@@ -13,8 +13,13 @@
 4. Install VirtualBox
 5. Install Ubuntu Linux
 6. Install VirtualBox Guest Additions
+** Right click the mounted CD image and open a terminal
+** Type `sudo sh ./VBoxLinuxAdditions.run`
 7. Install Python 3.x
 
 ## Troubleshooting
-You may need to install gcc build tools:
+#### You may need to install gcc build tools:
 Open a terminal and type `sudo apt-get install build-essential gcc make perl dkms`
+
+#### Check if Python 3 is installed.
+Open a terminal and type `python3 --version`
