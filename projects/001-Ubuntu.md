@@ -13,8 +13,8 @@
 4. Install VirtualBox
 5. Install Ubuntu Linux
 6. Install VirtualBox Guest Additions
-** Right click the mounted CD image and open a terminal
-** Type `sudo sh ./VBoxLinuxAdditions.run`
+    * Right click the mounted CD image and open a terminal
+    * Type `sudo sh ./VBoxLinuxAdditions.run`
 7. Install Python 3.x
 
 ## Troubleshooting
