@@ -29,6 +29,6 @@ In a terminal, type `pip --version` or `pip3 --version`
 If not installed, type `sudo apt install python3-pip`
 
 #### Using Virtual Environments
-Installing virtual environments using a terminal:
-In a terminal type `python3 -m pip install jupyter matplotlib numpy pandas scipy scikit-learn`
-In a terminal type `sudo apt install python3-venv`
+* Installing virtual environments using a terminal:
+* In a terminal type `python3 -m pip install jupyter matplotlib numpy pandas scipy scikit-learn`
+* In a terminal type `sudo apt install python3-venv`
