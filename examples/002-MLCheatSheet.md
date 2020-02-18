@@ -1,7 +1,7 @@
 # Quick Cheat Sheet for Machine Learning
 
 ## Linear Regression (Continuous) Numerical Modeling Techniques
-Technique | Regularization | Kernels | Other Names
+Technique | Regularization | Kernels | Other Names and Notes
 --- | --- | --- | ---
 Linear Regression | No | No | Multiple Regression
 Ridge Regression | Yes | No | L2 Regularization, Tikhonov Regularization
