@@ -24,3 +24,6 @@ There are 500 million tweets per day - can your analyst handle this in EXCEL to 
 * Solution: Machine learning and artificial intelligence
 
 ## Example: Mastercard
+
+
+References: https://usa.visa.com/dam/VCOM/download/corporate/media/visanet-technology/aboutvisafactsheet.pdf
