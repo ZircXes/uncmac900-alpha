@@ -5,9 +5,8 @@
 1. Understand the system that enables analytics for a business
 ```
 
+## Analytics Pipeline
 [DIAGRAM]
-
-#### Simple
 Events --> Captured Events --> Storage --> Monitoring --> Processing --> Reporting and Visualization
 
 ### 1. Events
@@ -29,6 +28,8 @@ Data is often stored in multiple locations (redundancy) which is typically due t
 ### 6. Reporting and Visualization
 At the last stage, end-users use data from various curated data sources for production processes, visualization, ad-hoc analytics, modeling, and reporting. Often specialized processes are setup for key financial reporting requirements to reduce manual steps and risk of error.
 
+## Examples
+
 #### Example for multiple reporting processes automated
 Banks are required to prepare standard financial reports, but are also required to file various regulatory filings (e.g. call reports, business forecasts, etc.). Often, due to different rules and reporting requirements, including heirarchies and aggregation, these may be pulling from the same systems but have different processing data marts or rules to automate the reporting. Reconciliation between systems can be difficult if these processes are maintained in isolation.
 
@@ -43,6 +44,11 @@ An example of how data marts can differ might be a GL system vs. a reporting sys
 
 #### Example for monitoring
 
+## Summary
+Understanding the analytics pipeline is important in order to understand how to add business value, where to capture the data, where controls may be required, or how the process can be improved to create business value. As more accounting data feeds into strategic planning and business decision-making, accountants can contribute to the value of analytics at the firm.
+
+## Addendums
+
 #### Addendum: Cost of storage (Strategic Planning on Analytics)
 With storage costs approximating $0.02 / GB / Month or $20.00 / TB / Month, storing events is cheap. One TB annually is $240 and would allow a system to capture a billion events (where each event is approximated at 1 KB). Storage is cheap.
 *Storage costs retrieved 2020 Q3, frequent access tier. Infrequent access is cheaper.
@@ -52,3 +58,6 @@ Reducing data errors can easily be improved by using data validation at the even
 
 #### Addendum: Data / AI Flywheel
 The data flywheel (now marketed by Amazon AWS) or the more traditional Artificial Intelligence (AI) flywheel is the concept that core business processes should encourage the creation of new data to increase the value of the analytics pipeline. An example is Netflix, as users interact with the system (events), the system runs experiments and analytics to improve profitability / user experience. These improvements lead to continued use fo the platforms (more events) and the process is self-perpetuating. This is different from a closed analytics pipeline where the process does not have a direct feedback loop that encourage new Events.
+
+### References
+
