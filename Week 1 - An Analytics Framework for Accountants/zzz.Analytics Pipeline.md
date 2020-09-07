@@ -31,14 +31,14 @@ At the last stage, end-users use data from various curated data sources for prod
 ## Examples
 
 #### Example for multiple reporting processes automated
-Banks are required to prepare standard financial reports, but are also required to file various regulatory filings (e.g. call reports, business forecasts, etc.). Often, due to different rules and reporting requirements, including heirarchies and aggregation, these may be pulling from the same systems but have different processing data marts or rules to automate the reporting. Reconciliation between systems can be difficult if these processes are maintained in isolation.
+Banks are required to prepare standard financial reports, but are also required to file various regulatory filings (e.g. call reports, business forecasts, etc.). Often, due to different rules and reporting requirements, including hierarchies and aggregation, these may be pulling from the same systems but have different processing data marts or rules to automate the reporting. Reconciliation between systems can be difficult if these processes are maintained in isolation.
 
 #### Example for Processing and Multiple Data systems
 Sample simple organizational data pipeline
 1. Data from events are captured in a source system (the interface with customers for example or the tool used by an operations team or a call center).
 2. Data is moved to a centralized data environment known as a data lake (or possibly a data warehouse).
 3. Data is curated for less-technical end users in the form of a data mart.
-4. Multiple data marts may be created which have cross-dependencies (e.g. multiple data marts may have overlapping data from the upstream process) and these may have different requirements or business rules that can create differences.
+4. Multiple data marts may be created which have cross-dependencies (e.g. multiple data marts may have overlapping data from the upstream process) and these may have different requirements or business rules that can create apparent discrepancies.
 
 An example of how data marts can differ might be a GL system vs. a reporting system. The GL system is expected to include all accounting factors which can include amortization, depreciation, accrued interest, fees, etc; however a simple reporting mart for an end user might just have the baseline transaction amount. Alternatively the GL system may be capturing payments in temporary accounts that are unmapped which would lead to differences to a simple reporting data mart.
 
