@@ -28,3 +28,7 @@ Code is encapsulated into "jobs" and is orchestrated via a job runner such as Ai
 ### Level 3
 
 Job orchestration is configured as code and versioned.  All code moves through an automated continuous integration/continuous delivery pipeline.  IT controls are automatically enforced at through this promotion pipeline.  Data governance standards are materialized into code libraries that allow the data pipelines to communicate their compliance with a central data quality server at run time.  
+
+## Typical Organizational Maturity
+
+Most large organizations have pockets of Level 0 maturity, but also have capabilities for level 1 or 2 maturity.  If you find yourself in a level 0 organization, it is an opportunity to mature the analytics capabilities.  If you find yourself in a level 2 or level 3, you can deliver analytics faster and with better controls.  
