@@ -7,7 +7,7 @@ How do teams divide up the labor of building out analytics pipelines and special
 Technology teams are often divided into a few key groups related to this process:
 1. Architecture or Data Engineering
 2. User interfaces and applications
-3. Data goverance
+3. Data governance
 4. Data management
 
 These teams may be closely integrated if a business has adopted Agile or is using DevOps with **continuous integration / continuous deployment (CI/CD)**.

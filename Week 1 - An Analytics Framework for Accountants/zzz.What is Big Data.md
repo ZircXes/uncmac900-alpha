@@ -15,7 +15,7 @@ There are 500 million tweets per day - can your analyst handle this in EXCEL to 
 
 ### Velocity
 * Making that analytics repeatable or on-demand is even more impractical.
-* The data is flying in at warp speed (6000 / second). Even if you run analytics daily, you will have missed viral trends and will be blaimed for not acting accordingly if problematic tweets are allowed to foster.
+* The data is flying in at warp speed (6000 / second). Even if you run analytics daily, you will have missed viral trends and will be blamed for not acting accordingly if problematic tweets are allowed to foster.
 * Solution: Production, automated analytics engine (not EXCEL)
 
 ### Variety
